@@ -88,9 +88,9 @@ reset():void{
   this.quantity=0;
   }
 
-  next():void{
-    this.navCtrl.push(CheckoutPage);
-  }
+  // next():void{
+  //   this.navCtrl.push(CheckoutPage);
+  // }
   
   ionViewDidLoad() {
     console.log('ionViewDidLoad OrderPage');
